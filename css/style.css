@@ -1,0 +1,128 @@
+/***************************************
+Page Styles
+
+***************************************/
+
+body {
+  margin: 0;
+  background: #90ADB7 url('../images/background.png') repeat-x;
+  font-family: veranda, sans-serif;
+  font-size: 0.85em;
+  }
+  
+  #wrapper {
+    width: 960px;
+    margin: 0 auto;
+    }
+ 
+ p {
+  line-height: 1.5em;
+  color: #333;
+  text-align: justify;
+  padding-right: 20px;
+  }
+  
+a:hover {
+text-decoration: none;
+}
+
+/***************************************
+Navigation
+
+***************************************/
+
+#nav {
+  list-style: none;
+  padding: 0;
+  float: right;
+  margin: 40px 0;
+  }
+  
+#nav li {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.4em;
+  font-weight: bold;
+  }
+  
+  /***************************************
+Header
+***************************************/
+
+#header {
+font-style: italic;
+float: left;
+margin: 20px 0;
+}
+
+#header h1 {
+  font-size: 3em;
+  margin: 0;
+  }
+
+#header h2{
+  margin: 0
+  color: #888;
+  font-size: 1.2em;
+  }
+
+  /***************************************
+Content
+***************************************/
+
+#content {
+  float: left;
+  width: 700px;
+  margin-right: 20px;
+  }
+  
+#content .post {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #CCC;
+  position: relative;
+  }
+  
+#content .post h3 {
+  margin: 0
+  color: #333;
+  }
+  
+.pic {
+  margin-left: 10px;
+  float: right;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+  
+  /***************************************
+Sidebar
+***************************************/
+
+#sidebar {
+  float: left;
+  width: 200px;
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #CCC
+  }
+  
+#sidebar h3{
+  margin: 0;
+  }
+  
+#sidebar .section {
+  border-top: 2px dashed #ccc;
+  padding-top: 10px;
+  }
+  
+#sidebar .section:first-child {
+  border-top: none;
+  padding: 0;
+  }
+
+
+
+
+
